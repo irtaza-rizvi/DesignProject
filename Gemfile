@@ -11,6 +11,7 @@ gem 'sidekiq', '~> 3.3.2'
 gem 'hdf5', '~> 0.3'
 #user chartkick gem for producing charts
 gem 'chartkick', '~> 1.3.2'
+gem 'tzinfo-data'
 #python interpreter bridge for running disaggregation script
 gem 'rubypython', '~> 0.6.3'
 # Use sqlite3 as the database for Active Record
@@ -33,6 +34,8 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.on
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+#for loading
+#gem 'motion-loadingview', '~> 0.0.1'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
